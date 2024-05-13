@@ -1,0 +1,72 @@
+
+
+body{}
+.login-panel{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.panel-header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color:#202020;
+}
+.panel-header{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #515151;
+}
+.panel-circle{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.panel-list{
+    display: flex;
+    height: 35px;
+    align-items:center;
+    background-color:#282828;
+    border-bottom: 1px solid #515151;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    height: 35px;
+}
+.list li {
+    display: flex;
+}
+.list li a{
+    color:#fff;
+    padding: 0 10px;
+    /* height: 100%; */
+    display: flex;
+    text-align: center;
+    align-items:center;
+    background-color: #202020;
+    gap: 10px;
+}
+.list li .active{
+    background-color:#2e332e;
+    display: flex;
+}
+
+.list-togle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color:rgba(68, 255, 0, 0.2);
+}
+.list-no-togle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color:rgb(96, 96, 96);
+}

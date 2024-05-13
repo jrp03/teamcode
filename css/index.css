@@ -1,0 +1,110 @@
+
+
+
+/* container */
+.container  {
+    display: flex;
+    flex-direction: column;
+}
+.container-main{
+    display: flex;
+    padding: 100px 10px;
+    flex-direction: column;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+}
+
+.container-left{
+    /* padding: 0 20px; */
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+}
+.container-left-circle{
+    /* width: 300px;
+    height: 300px; */
+    position: absolute;
+    /* background-color:rgba(0, 0, 255, 0.334); */
+    border-radius: 100%;
+}
+.card-container-left{
+    display: flex;
+    flex-direction: column;
+    /* background-color:#2f2f2f; */
+    padding: 20px 10px;
+}
+.card-container-title{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 50px;
+    color:#b7b7b7;
+}
+
+.card-boxs-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.card-box-content{
+    /* background-color:#fff; */
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.card-box-content img{
+    height: 100px;
+}
+
+
+.card-container-rigth{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1919;
+  
+    padding: 20px;
+    color: #fff;
+    gap: 20px;
+    border: 1px solid #fff;
+}
+.container-top{
+    height: 40px;
+    border: 1px solid #fff;
+    background-color:#282828;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    padding: 0 10px;
+    align-items:center;
+    gap: 10px;
+}
+.circle{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    /* background-color:red; */
+    border-radius: 100%;
+}
+.container-footer{
+    height: 38px;
+    border: 1px solid #fff;
+    border-radius: 0 0 10px 10px;
+    background: #262626;
+}
+.card-container-rigth ul{
+    padding-left: 20px;
+}
+.card-container-rigth p,
+.card-container-rigth u
+{
+    text-align: justify;
+}
